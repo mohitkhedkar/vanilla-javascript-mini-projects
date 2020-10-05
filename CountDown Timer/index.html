@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+
+  
+ <!--Inputs for the countdown-->
+ <form  id="form">
+  <label for="event-name">Event Name:</label>
+  <input type="text" id="eventname" placeholder="Event Name" required><br>
+  <label for="event-name">Date:</label>
+  <input type="date" id="date" name="fname" required><br><br>
+</form>
+
+
+
+<h1>
+  Time Remaining for <span id="Displayname"> </span>
+ </h1>
+
+<div class="countdown-container">
+         <div class="countdown-el days-c">
+             <p class="big-text" id="days">0</p>
+             <span>Days</span>
+         </div>
+         <div class="countdown-el hours-c">
+             <p class="big-text" id="hours">0</p>
+             <span>Hours</span>
+         </div>
+         <div class="countdown-el mins-c">
+             <p class="big-text" id="mins">0</p>
+             <span>Mins</span>
+         </div>
+         <div class="countdown-el seconds-c">
+             <p class="big-text" id="seconds">0</p>
+             <span>Seconds</span>
+         </div>
+     </div>
+
+     <footer class="footer">
+      <div class="madeby">
+       
+        <p>&copy; 2020 <strong>Mohit Khedkar</strong> </p>
+        <a href="https://www.linkedin.com/in/mohit-khedkar-63a6051a3/" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/mohitkhedkar_" class="fa fa-twitter"></a>
+        <a href="https://github.com/mohitkhedkar" class="fa fa-github"></a>
+      </div>
+      
+     
+     </footer>
+    <!-- Footer End -->
+
+     
+  </body>
+</html>
