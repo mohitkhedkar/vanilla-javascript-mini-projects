@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./bg.jpg");
+    background-image: url("image/bg.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -14,6 +14,31 @@ body {
     min-height: 100vh;
     font-weight: bold;
     margin: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #24252A;
+  display: flex;
+  align-items: center;
+  padding: 10px 10%;
+  width: 100%;
+
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-between;
+  background-color: #24252A;
+  border-radius: 50%;
+}
+
+h2{
+  position: relative;
+  background-color: #24252A;
+  color: #edf0f1;
 }
 
 /* Form Styling */
@@ -79,7 +104,8 @@ h1 {
   position: fixed;
   width: 100%;
   text-align: center;
-  background-color: #000000;
+  background-color: #1e1e20;
+  /* background-color: #000000; */
   color: rgb(255, 255, 255);
   /* position: fixed;  */
   margin-bottom: 0;
@@ -89,7 +115,7 @@ h1 {
 
 .madeby{
    text-align: center;
-   margin-top: 10px;
+   margin-top: 5px;
    margin-left: 20px;
    font-weight: 800;
    letter-spacing: 1px;
