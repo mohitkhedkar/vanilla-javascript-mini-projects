@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <header>
+        <img class="logo" src="image/logo.jpeg" alt="logo" > 
+        <h2>Password Generator </h2>
+       
+    </header>
+
 
     <div class="pw-container">
         <div class="pw-header">
@@ -17,28 +24,41 @@
         </div>
         <div class="pw-body">
             <div class="form-control">
-                <label for="len">Password Length</label>
-                <input id="len" value="15" type="number" min="2" max="30" />
+                <label for="len"> <b> Password Length </b></label>
+                <input class="scrolllen" id="len" value="15" type="number" min="2" max="30" />
             </div>
             <div class="form-control">
-                <label for="upper">Contain Uppercase Letters</label>
+                <label for="upper"><b> Contain Uppercase Letters </b></label>
                 <input id="upper" type="checkbox" />
             </div>
             <div class="form-control">
-                <label for="lower">Contain Lowercase Letters</label>
+                <label for="lower"><b> Lowercase Letters </b></label>
                 <input id="lower" type="checkbox" />
             </div>
             <div class="form-control">
-                <label for="number">Contain Numbers</label>
+                <label for="number"><b> Contain Numbers </b></label>
                 <input id="number" type="checkbox" />
             </div>
             <div class="form-control">
-                <label for="symbol">Contain Symbols</label>
+                <label for="symbol"><b> Contain Symbols </b></label>
                 <input id="symbol" type="checkbox" />
             </div>
             <button class="generate" id="generate">
                 Generate Password
             </button>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="madeby">
+              <p class="madeby">&copy; 2020 <strong class="madeby">  Mohit Khedkar </strong> </p>
+              <a href="https://www.linkedin.com/in/mohit-khedkar-63a6051a3/" class="fa fa-linkedin"></a>
+              <a href="https://twitter.com/mohitkhedkar_" class="fa fa-twitter"></a>
+              <a href="https://github.com/mohitkhedkar" class="fa fa-github"></a>
+              <!-- <a href="https://github.com/mohitkhedkar/">More Projects</a> -->
+        </div>
+    </footer>
+
 
     <script src="script.js"></script>
 </body>

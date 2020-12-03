@@ -1,83 +1,179 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
-    box-sizing: border-box;
+     box-sizing:border-box;
+    margin:0;
+    padding:0;
+    background-color : #ffffff;
 }
 
-body {
-    background-color: rebeccapurple;
-    color: white;
+/* Header Styling */
+li, a, button {
+    background-color: #24252A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #24252A;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    min-height: 100vh;
+    padding: 10px 10%;
+
 }
 
+.logo {
+    height: 50px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    background-color: #24252A;
+    border-radius: 50%;
+}
+
+h2{
+    position: relative;
+    background-color: #24252A;
+    color: #edf0f1;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    color: #444444;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* main Section Styling */
 .pw-container {
-    background-color: rgb(46, 12, 80);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     min-width: 400px;
-}
-
-.pw-header {
-    padding: 1rem;
+    justify-content: center;
 }
 
 .pw {
-    background-color: rgb(69, 28, 109);
+    color:none;
     display: flex;
     font-size: 1.5rem;
     align-items: center;
     height: 70px;
-    width: 100%;
+    width: 50%;
     position: relative;
     padding: 1rem;
+    margin-left: 5rem;
+    color:rgb(0, 0, 0);
     overflow: auto;
 }
 
 .pw button {
-    background-color: white;
-    border: none;
-    color: rgb(29, 2, 56);
+    background-color: rgba(0, 136, 169, 1);
+    color:#ffffff;
     cursor: pointer;
     font-family: inherit;
     font-weight: bold;
     padding: 0.25rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    right: 0; 
     transform: translate(0, 20%);
     transition: opacity 0.2s ease, transform 0.2s ease;
-    opacity: 0;
+    opacity: 50;
 }
 
 .pw:hover button {
-    opacity: 1;
+    opacity: 10;
     transform: translate(0, 0%);
 }
 
 .pw-body {
-    padding: 0 1rem 1rem;
+    position: relative;
+    justify-content: center;
 }
 
 .form-control {
-    color: #eee;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
-    margin: 0.75rem 0;
+    margin-top: 2rem; 
+    margin-left: 5rem;
+    margin-right: 20rem;
+}
+.len{
+    color: #fff;
+    background-color: #ffffff;
+    
 }
 
 .generate {
-    background-color: #ecb602;
     border: none;
-    color: rebeccapurple;
+    color: #ffffff;
     cursor: pointer;
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.75rem;
-    margin-top: 1rem;
-    width: 100%;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 50%;
 }
+
+/* Footer Styling */
+.footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #24252A;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+.madeby{
+    background-color: #24252A;
+     text-align: center;
+     margin-top: 10px;
+     margin-left: 20px;
+     font-weight: 800;
+     letter-spacing: 1px;
+}
+  
+a{
+  background-color: #24252A;
+  color:#D3D3D3;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 1000;
+  cursor: pointer;
+}
+  
+.links{
+    text-align: right;
+    background-color: #24252A;
+}
+  
+.fa {
+    background-color: #24252A;
+    padding: 15px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none; 
+}
+  
+.fa:hover {
+    opacity: 0.8;
+}
+  
+  
