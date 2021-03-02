@@ -47,13 +47,13 @@ button{
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    /* cursor: pointer; */
+    /* transition: all 0.3s ease 0s; */
 }
 
 button:hover{
-    color: #444444;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
 }
 
 /* main Section Styling */
@@ -85,15 +85,17 @@ button:hover{
     font-weight: bold;
     padding: 0.25rem;
     position: absolute;
+    border-radius: 8px;
     right: 0; 
-    transform: translate(0, 20%);
-    transition: opacity 0.2s ease, transform 0.2s ease;
+    /* transform: translate(0, 20%); */
     opacity: 50;
 }
 
 .pw:hover button {
     opacity: 10;
-    transform: translate(0, 0%);
+    border: 2px solid #008CBA;
+    color: aqua;
+    background-color: white;
 }
 
 .pw-body {
@@ -105,10 +107,10 @@ button:hover{
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem; 
-    margin-left: 5rem;
-    margin-right: 20rem;
+    margin-top: 0.5%;
+
 }
+
 .len{
     color: #fff;
     background-color: #ffffff;
@@ -118,7 +120,6 @@ button:hover{
 .generate {
     border: none;
     color: #ffffff;
-    cursor: pointer;
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
@@ -143,8 +144,8 @@ button:hover{
 .madeby{
     background-color: #24252A;
      text-align: center;
-     margin-top: 10px;
-     margin-left: 20px;
+     margin-top: 4px;
+     margin-left: 2px;
      font-weight: 800;
      letter-spacing: 1px;
 }
@@ -165,7 +166,7 @@ a{
   
 .fa {
     background-color: #24252A;
-    padding: 15px;
+    padding-bottom: 1rem;
     font-size: 20px;
     width: 25px;
     text-align: center;
