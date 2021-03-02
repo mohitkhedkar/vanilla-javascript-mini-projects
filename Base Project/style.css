@@ -1,15 +1,39 @@
-* body{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-weight: bold;
     margin: 0;
-    padding: 0;
-    background-color: rgb(21,26,28);
 }
 
+header {
+    color: #fff;
+    background-color: #24252A;
+    /* display: flex; */
+    align-items: center;
+    padding: 10px 10%;
+    width: 100%;
+  
+}
 
-header{
-    background-color: antiquewhite;
-    padding : 0.5%; 
+img{
+    max-width: 100%;
+    height: auto;
 }
-.icon-box{
-    background-color: rgb(21,26,28);
+
+#odd {
+    background-color: rgba(209, 209, 209, 0.616);
+
 }
+
+#even{
+    background-color: rgba(221, 221, 221, 0.486);
+    
+}
+
 
