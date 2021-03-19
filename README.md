@@ -5,11 +5,12 @@
 ![Languages](https://img.shields.io/github/languages/count/mohitkhedkar/JavaScript-Mini-Projects?style=flat-square)
 
 
-### 1. [Password-Generator](https://github.com/mohitkhedkar/JavaScript-Mini-Projects/tree/main/Password-Generator)
-https://password-generator-mk.netlify.app/
+## https://javascript-projects-mk.netlify.app/
 
-### 2. [CountDown-Timer](https://github.com/mohitkhedkar/JavaScript-Mini-Projects/tree/main/CountDown%20Timer)
-https://countdown-timer-mk.netlify.app/
-
-### 3. [Image Slideshow](https://github.com/mohitkhedkar/JavaScript-Mini-Projects/tree/main/Image%20Slideshow)
-https://image-slideshow-mk.netlify.app/
+---
+### List of Projects
+1. CountDown Timer
+2. Password Generator
+3. Image Slideshow
+4. Login/Signup Form Validation
+5. Income Tax Calculator
