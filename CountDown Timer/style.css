@@ -8,47 +8,58 @@ body {
     background-image: url("image/bg.jpg");
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    font-weight: bold;
-    margin: 0;
+    margin: 0; 
 }
 
-/* Header Styling */
-header {
-  background-color: #24252A;
-  display: flex;
-  align-items: center;
-  padding: 10px 10%;
-  width: 100%;
-
+/* nav-bar Styling */
+.navbar {
+  background-color: rgb(37, 37, 37);
+  overflow: hidden;
 }
 
-.logo {
-  height: 50px;
-  display: flex;
-  margin-right: 20px;
-  justify-content: space-between;
-  background-color: #24252A;
-  border-radius: 50%;
+.nav-brand a {
+  background-color: rgb(37, 37, 37);
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
 }
 
-h2{
-  position: relative;
-  background-color: #24252A;
-  color: #edf0f1;
+.topnav a {
+  background-color: rgb(37, 37, 37);
+  float:inline-end;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-/* Form Styling */
 
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* form Styling */
 form {
+  padding: 1rem;
   margin-top: 1rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  
 }
 
 input[type=text], select {
-  width: 100%;
+  align-items: center;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -59,7 +70,8 @@ input[type=text], select {
 }
 
 input[type=date], select {
-  width: 100%;
+  align-items: center;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
