@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    background-color: #EEEDE7;
+  }
+  
+    
+  /* nav-bar Styling */
+.navbar {
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+}
+  
+.nav-brand a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+  /* Income tax Section */
+.income-container {
+   background-color: #E7D2CC;
+   padding-top: 5rem;
+   padding-bottom: 10rem;
+
+}
+
+p{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+form {
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+input[type=number], select {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  
+}
+
+button{
+  background-color: #3498db; /* Green */
+  border: none;
+  border-radius: 50rem;
+  width: 10rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #2980b9;
+}
+
+h1{
+    text-align: center;
+}

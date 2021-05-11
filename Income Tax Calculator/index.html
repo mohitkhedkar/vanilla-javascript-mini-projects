@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-brand">
+            <a href="">Income Tax Calculator</a>
+        </div>
+        <div class="topnav">
+            <a href="https://github.com/mohitkhedkar"> <i class="fa fa-fw fa-github"></i>Visit Github</a>
+
+            <a href=""></i>More Projects</a>
+        </div>
+    </div>
+
+    <!-- Income Tax Section -->
+    <div class="income-container">
+             
+        <p> Please enter the <b>Annual Income </b>  in <b> &#8377</b> Rupees  </p>
+        <form class="form">
+                <input type="number" id="incomeamount" placeholder="Enter Amount" required><br>
+                
+                <button type="submit" class="button" onclick="taxCalculate()">Submit</button>
+                <button type="reset" class="button" onclick="">Clear</button>
+        </form>
+
+        <!-- <div>
+            <h1>
+                Income Tax is &#8377<span id="taxamount"> </span>
+                </h1>
+        </div> -->
+        
+             
+        
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
