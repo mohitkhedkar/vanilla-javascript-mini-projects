@@ -11,6 +11,6 @@
 ### List of Projects
 1. CountDown Timer
 2. Password Generator
-3. Image Slideshow
-4. Login/Signup Form Validation
-5. Income Tax Calculator
+3. Income Tax Calculator
+4. Image Slideshow
+5. Login/Signup Form Validation
