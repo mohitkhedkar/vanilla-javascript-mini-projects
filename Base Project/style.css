@@ -1,6 +1,8 @@
 body{
   box-sizing: border-box;
   background-color: #B9B7BD;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -35,7 +37,7 @@ body{
 
 
 .topnav a:hover {
-  background-color: #E7D2CC;
+  background-color: #ffffff;
   color: black;
 }
 
