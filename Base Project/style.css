@@ -1,6 +1,6 @@
 body{
   box-sizing: border-box;
-  background-color: #e6e6e6;
+  background-color: #B9B7BD;
 }
 
 
@@ -24,7 +24,7 @@ body{
 }
 
 .topnav a {
-  float:inline-end;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -35,7 +35,7 @@ body{
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #E7D2CC;
   color: black;
 }
 
@@ -74,8 +74,8 @@ cursor: pointer;
 }
 
 .grid-container > div:hover {
-background-color: rgb(199, 199, 199);
-color: #fff;
+background-color: #E7D2CC;
+
 
 }
 
