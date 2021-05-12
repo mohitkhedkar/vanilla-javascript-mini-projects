@@ -1,6 +1,8 @@
 body{
     box-sizing: border-box;
-    background-color: #EEEDE7;
+    background-color: #E7D2CC;
+    margin: 0;
+    padding: 0;
   }
   
     
@@ -40,9 +42,8 @@ body{
   /* Income tax Section */
 .income-container {
    background-color: #E7D2CC;
-   padding-top: 5rem;
-   padding-bottom: 10rem;
-
+   padding-top: 2rem;
+   
 }
 
 p{
@@ -91,6 +92,4 @@ button:hover{
     background-color: #2980b9;
 }
 
-h1{
-    text-align: center;
-}
+
