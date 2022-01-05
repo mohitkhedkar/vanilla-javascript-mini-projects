@@ -1,16 +1,19 @@
 # JavaScript-Mini-Projects
 
-![GitHub](https://img.shields.io/github/license/mohitkhedkar/JavaScript-Mini-Projects?style=flat)
-![GitHub last commit](https://img.shields.io/github/last-commit/mohitkhedkar/JavaScript-Mini-Projects?style=flat)
-![Languages](https://img.shields.io/github/languages/count/mohitkhedkar/JavaScript-Mini-Projects?style=flat-square)
+![GitHub](https://img.shields.io/github/license/mohitkhedkar/JavaScript-Mini-Projects?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/mohitkhedkar/JavaScript-Mini-Projects?style=for-the-badge)
+![Languages](https://img.shields.io/github/languages/count/mohitkhedkar/JavaScript-Mini-Projects?style=for-the-badge)
 
+### Live Project link
 
 ## https://javascript-projects-mk.netlify.app/
 
 ---
+
 ### List of Projects
-1. CountDown Timer
-2. Password Generator
-3. Income Tax Calculator
-4. Image Slideshow
-5. Login/Signup Form Validation
+
+| Project Names                |                       |
+| ---------------------------- | --------------------- |
+| CountDown Timer              | Image Slideshow       |
+| Password Generator           | Income Tax Calculator |
+| Login/Signup Form Validation |                       |
