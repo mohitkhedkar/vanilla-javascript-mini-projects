@@ -12,8 +12,12 @@
 
 ### List of Projects
 
-| Project Names                         |                                          |
-| ------------------------------------- | ---------------------------------------- |
-| :white_check_mark: CountDown Timer    | :white_check_mark: Image Slideshow       |
-| :white_check_mark: Password Generator | :white_check_mark: Income Tax Calculator |
-| Login/Signup Form Validation          |                                          |
+[done]: https://user-images.githubusercontent.com/29199184/32275438-8385f5c0-bf0b-11e7-9406-42265f71e2bd.png "Done"
+
+| Status        | Project Names                |
+| ------------- | ---------------------------- |
+| ![Done][done] | CountDown Timer              |
+| ![Done][done] | Image Slideshow              |
+| ![Done][done] | Password Generator           |
+| ![Done][done] | Income Tax Calculator        |
+|               | Login/Signup Form Validation |
