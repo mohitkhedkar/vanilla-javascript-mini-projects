@@ -6,7 +6,7 @@
 
 ### Live Project link
 
-## https://javascript-projects-mk.netlify.app/
+## https://vanilla-javascript-mini-projects.vercel.app/
 
 ---
 
@@ -15,7 +15,6 @@
 | Status             | Project Names                |
 | ------------------ | ---------------------------- |
 | :white_check_mark: | CountDown Timer              |
-| :white_check_mark: | Image Slideshow              |
 | :white_check_mark: | Password Generator           |
 | :white_check_mark: | Income Tax Calculator        |
 |                    | Login/Signup Form Validation |
