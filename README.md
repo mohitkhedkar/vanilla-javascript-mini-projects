@@ -12,12 +12,12 @@
 
 ### List of Projects
 
-| Status             | Project Names                |
-| ------------------ | ---------------------------- |
-| :white_check_mark: | CountDown Timer              |
-| :white_check_mark: | Password Generator           |
-| :white_check_mark: | Income Tax Calculator        |
-|                    | Login/Signup Form Validation |
+| Status             | Project Names         |
+| ------------------ | --------------------- |
+| :white_check_mark: | CountDown Timer       |
+| :white_check_mark: | Password Generator    |
+| :white_check_mark: | Income Tax Calculator |
+| :white_check_mark: | Image Slideshow       |
 
 ## License
 
