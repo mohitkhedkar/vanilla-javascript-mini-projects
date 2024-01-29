@@ -16,6 +16,7 @@
 | ------------------ | --------------------- |
 | :white_check_mark: | Tic Tac Toe Games     |
 | :white_check_mark: | CountDown Timer       |
+| :white_check_mark: | BMI Calculator        |
 | :white_check_mark: | Password Generator    |
 | :white_check_mark: | Income Tax Calculator |
 | :white_check_mark: | Image Slideshow       |
